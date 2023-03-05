@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        h1 {
+            background-color: rgb(8, 85, 85);
+            color: aliceblue;
+            padding: 20px;
+            display: inline-block;
+            margin-left: 200px;
+            margin-bottom: 0;
+        }
+
+        body {
+            background-color: #e7e1e1;
+            font-size: 30px;
+        }
+
+        div {
+            background-color: white;
+            margin-top: 50;
+            padding-top: 20px;
+            border-bottom: solid #f8eeee;
+        }
+
+        #about {
+            display: inline-block;
+            margin-left: 500px;
+            color: gray;
+            font-weight: normal;
+            font-size: smaller;
+        }
+
+        #aboutme {
+            float: left;
+            width: 600px;
+            margin-left: 200px;
+            margin-top: 20px;
+            padding: 30px;
+        }
+
+        #aboutmeheader {
+            display: inline-block;
+            width: 600px;
+            text-align: center;
+            color: rgb(4, 77, 77);
+            border-bottom: solid #dad7d7;
+            padding-bottom: 10px;
+            float: left;
+
+        }
+
+        #aboutmetext {
+            font-size: smaller;
+            padding: 20px;
+            color: #3f3f3fbc;
+            margin-top: 10px;
+        }
+
+        #contact {
+            float: left;
+            width: 300px;
+            color: rgb(4, 77, 77);
+            border-bottom: solid #dad7d7;
+            padding-bottom: 10px;
+            margin-left: 100px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #about a {
+            text-decoration: none;
+            padding-right: 30px;
+        }
+
+        #contact p {
+            color: gray;
+            padding-top: 20px;
+        }
+
+        #contact h2 {
+            border-bottom: solid #dad7d7;
+            padding-bottom: 10px;
+        }
+
+        .menu {
+            display: inline-block;
+            padding: 0px;
+        }
+
+        .menu li {
+            display: inline-block;
+            padding: 0px;
+        }
+
+        .menu li+li::before {
+            content: "|";
+            color: gray;
+            font-size: 20px;
+            font-weight: bolder;
+            margin-right: 10px;
+        }
+      img {float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+padding: 10px;}
+#contactphoto {margin-left: 35px;}
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1> Jalə Məmmədova</h1>
+
+        <nav id="about">
+            <ul class="menu">
+                <li><a href="https://www.google.com/">About </a></li>
+                <li><a href="https://www.google.com/">Portfolio </a></li>
+                <li><a href="https://www.google.com/">Contact </a> </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="aboutme">
+        <h2 id="aboutmeheader">About me</h2>
+        <img width="100px" height="100px" src="./photo/my photo.jpg">
+        <p id="aboutmetext"> I am interested in being on the precipice of research, discovery, development, and innovation. Knowledgeable
+            about customer preferences and market trends. Strongly self-motivated, stakeholder centric, customer-centric,
+            welcoming new challenges.</p>
+    </div>
+
+    <div id="contact">
+        <h2 id="contacttext">Contact with me </h2>
+        <img id="contactphoto" height="30px" width="30px" src="./photo/GitHub-Mark.png" alt="">
+        <img id="contactphoto" height="30px" width="30px" src="./photo/LinkedIn_icon_circle.svg.png" alt="">
+        <img id="contactphoto" height="30px" width="30px" src="./photo/behance.png" alt="">
+
+    </div>
+</body>
+
+</html>
